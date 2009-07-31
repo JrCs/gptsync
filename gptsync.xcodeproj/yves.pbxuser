@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = A386EB211021E6AF004D1C07 /* gptsync */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* gptsync */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* gptsync */,
+		);
+		breakpoints = (
+			A32F554A1022F01D005F0285 /* os_unix.c:201 */,
+			A32F560F10230670005F0285 /* gptsync.c:403 */,
+			A32F562410230AE8005F0285 /* gptsync.c:389 */,
+			A32F563310230E7F005F0285 /* gptsync.c:266 */,
+			A32F567110232020005F0285 /* gptsync.c:343 */,
+		);
+		codeSenseManager = A386EB271021E6C2004D1C07 /* Code sense */;
+		executables = (
+			A386EB211021E6AF004D1C07 /* gptsync */,
+		);
+		expressions = (
+			"gpt_parts[i]",
+			mbr_parts,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_ContinueID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					245,
+					20,
+					164,
+					124,
+					77,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					470,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					582,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					542,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 270740953;
+			PBXWorkspaceStateSaveDate = 270740953;
+		};
+		perUserProjectItems = {
+			A32F544910220D33005F0285 /* PBXTextBookmark */ = A32F544910220D33005F0285 /* PBXTextBookmark */;
+			A32F544B10220D33005F0285 /* PBXTextBookmark */ = A32F544B10220D33005F0285 /* PBXTextBookmark */;
+			A32F54D81022E551005F0285 /* PBXTextBookmark */ = A32F54D81022E551005F0285 /* PBXTextBookmark */;
+			A32F55AD1022F461005F0285 /* PBXTextBookmark */ = A32F55AD1022F461005F0285 /* PBXTextBookmark */;
+			A32F55E51022FA5C005F0285 /* PBXTextBookmark */ = A32F55E51022FA5C005F0285 /* PBXTextBookmark */;
+			A32F562810230B04005F0285 /* PBXTextBookmark */ = A32F562810230B04005F0285 /* PBXTextBookmark */;
+			A32F5659102316CD005F0285 /* PBXTextBookmark */ = A32F5659102316CD005F0285 /* PBXTextBookmark */;
+			A32F5677102321BE005F0285 /* PBXTextBookmark */ = A32F5677102321BE005F0285 /* PBXTextBookmark */;
+			A32F56CA102324AE005F0285 /* PBXTextBookmark */ = A32F56CA102324AE005F0285 /* PBXTextBookmark */;
+			A32F56CD102324AE005F0285 /* PBXTextBookmark */ = A32F56CD102324AE005F0285 /* PBXTextBookmark */;
+			A32F56D2102324AE005F0285 /* PBXTextBookmark */ = A32F56D2102324AE005F0285 /* PBXTextBookmark */;
+			A32F56ED10232DEA005F0285 /* PBXTextBookmark */ = A32F56ED10232DEA005F0285 /* PBXTextBookmark */;
+			A32F56F010232DEA005F0285 /* PBXTextBookmark */ = A32F56F010232DEA005F0285 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A386EB261021E6C2004D1C07 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DD76FA90486AB0100D96B5E /* gptsync */ = {
+		activeExec = 0;
+		executables = (
+			A386EB211021E6AF004D1C07 /* gptsync */,
+		);
+	};
+	A32F544910220D33005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A32F544A10220D33005F0285 /* gptsync.h */;
+		name = "gptsync.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1022;
+		vrLoc = 4296;
+	};
+	A32F544A10220D33005F0285 /* gptsync.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = gptsync.h;
+		path = /Users/yves/developpement/gptsync/gptsync.h;
+		sourceTree = "<absolute>";
+	};
+	A32F544B10220D33005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A386EB491021E770004D1C07 /* lib.c */;
+		name = "lib.c: 310";
+		rLen = 0;
+		rLoc = 12810;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 15377;
+	};
+	A32F54D81022E551005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A32F54D91022E551005F0285 /* instgrub.c */;
+		name = "instgrub.c: 394";
+		rLen = 1;
+		rLoc = 13423;
+		rType = 0;
+		vrLen = 1259;
+		vrLoc = 12847;
+	};
+	A32F54D91022E551005F0285 /* instgrub.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = instgrub.c;
+		path = /Users/yves/developpement/grubOSX/instgrub/instgrub.c;
+		sourceTree = "<absolute>";
+	};
+	A32F554A1022F01D005F0285 /* os_unix.c:201 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A386EB521021E7ED004D1C07 /* os_unix.c */;
+		functionName = "list_types()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 201;
+		location = gptsync;
+		modificationTime = 270738600.421076;
+		state = 1;
+	};
+	A32F55AD1022F461005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A386EB4B1021E77B004D1C07 /* gptsync.c */;
+		name = "gptsync.c: 354";
+		rLen = 0;
+		rLoc = 10901;
+		rType = 0;
+		vrLen = 1347;
+		vrLoc = 10266;
+	};
+	A32F55E51022FA5C005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A32F55E61022FA5C005F0285 /* ioctl.h */;
+		name = "ioctl.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2463;
+		vrLoc = 0;
+	};
+	A32F55E61022FA5C005F0285 /* ioctl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ioctl.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/ioctl.h;
+		sourceTree = "<absolute>";
+	};
+	A32F560F10230670005F0285 /* gptsync.c:403 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A386EB4B1021E77B004D1C07 /* gptsync.c */;
+		functionName = "analyze()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 403;
+		location = gptsync;
+		modificationTime = 270738601.674547;
+		state = 1;
+	};
+	A32F562410230AE8005F0285 /* gptsync.c:389 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A386EB4B1021E77B004D1C07 /* gptsync.c */;
+		functionName = "analyze()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 389;
+		location = gptsync;
+		modificationTime = 270738600.421181;
+		state = 1;
+	};
+	A32F562810230B04005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A386EB521021E7ED004D1C07 /* os_unix.c */;
+		name = "os_unix.c: 39";
+		rLen = 0;
+		rLoc = 1690;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 5742;
+	};
+	A32F563310230E7F005F0285 /* gptsync.c:266 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A386EB4B1021E77B004D1C07 /* gptsync.c */;
+		functionName = "add_gpt_partition_to_mbr()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 266;
+		location = gptsync;
+		modificationTime = 270738600.421185;
+		state = 1;
+	};
+	A32F5659102316CD005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A386EB491021E770004D1C07 /* lib.c */;
+		name = "lib.c: 85";
+		rLen = 0;
+		rLoc = 3209;
+		rType = 0;
+		vrLen = 1510;
+		vrLoc = 1856;
+	};
+	A32F567110232020005F0285 /* gptsync.c:343 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A386EB4B1021E77B004D1C07 /* gptsync.c */;
+		functionName = "analyze()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 343;
+		location = gptsync;
+		modificationTime = 270738600.421188;
+		state = 1;
+	};
+	A32F5677102321BE005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A32F544A10220D33005F0285 /* gptsync.h */;
+		name = "gptsync.h: 220";
+		rLen = 0;
+		rLoc = 5383;
+		rType = 0;
+		vrLen = 916;
+		vrLoc = 3002;
+	};
+	A32F56CA102324AE005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A386EB521021E7ED004D1C07 /* os_unix.c */;
+		name = "os_unix.c: 211";
+		rLen = 0;
+		rLoc = 4895;
+		rType = 0;
+		vrLen = 1168;
+		vrLoc = 4574;
+	};
+	A32F56CD102324AE005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A386EB4B1021E77B004D1C07 /* gptsync.c */;
+		name = "gptsync.c: 485";
+		rLen = 0;
+		rLoc = 15099;
+		rType = 0;
+		vrLen = 1401;
+		vrLoc = 14411;
+	};
+	A32F56D2102324AE005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A386EB491021E770004D1C07 /* lib.c */;
+		name = "lib.c: 44";
+		rLen = 36;
+		rLoc = 1820;
+		rType = 0;
+		vrLen = 1833;
+		vrLoc = 1533;
+	};
+	A32F56ED10232DEA005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A386EB4B1021E77B004D1C07 /* gptsync.c */;
+		name = "gptsync.c: 485";
+		rLen = 0;
+		rLoc = 15099;
+		rType = 0;
+		vrLen = 1401;
+		vrLoc = 14411;
+	};
+	A32F56F010232DEA005F0285 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A386EB491021E770004D1C07 /* lib.c */;
+		name = "lib.c: 44";
+		rLen = 36;
+		rLoc = 1820;
+		rType = 0;
+		vrLen = 1833;
+		vrLoc = 1533;
+	};
+	A386EB211021E6AF004D1C07 /* gptsync */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			NO,
+			NO,
+			YES,
+			NO,
+			NO,
+			NO,
+			YES,
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-n",
+			"-e",
+			"-t",
+			/dev/disk6,
+			"\"1-7\"",
+			2,
+			3,
+			"\"1+0\"",
+			"-n",
+			"-n",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = gptsync;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$ss = 1;
+			"mbr_parts[0].mbr_type" = 1;
+			mbr_type = 1;
+			"type_guid-UINT8 [16]-read_gpt" = 1;
+		};
+	};
+	A386EB261021E6C2004D1C07 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	A386EB271021E6C2004D1C07 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A386EB491021E770004D1C07 /* lib.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {750, 6748}}";
+			sepNavSelRange = "{1820, 36}";
+			sepNavVisRange = "{1533, 1833}";
+			sepNavWindowFrame = "{{89, 76}, {789, 952}}";
+		};
+	};
+	A386EB4B1021E77B004D1C07 /* gptsync.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {760, 7266}}";
+			sepNavSelRange = "{15099, 0}";
+			sepNavVisRange = "{14411, 1401}";
+			sepNavWindowFrame = "{{283, 76}, {789, 952}}";
+		};
+	};
+	A386EB521021E7ED004D1C07 /* os_unix.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {760, 5082}}";
+			sepNavSelRange = "{4895, 0}";
+			sepNavVisRange = "{4574, 1168}";
+			sepNavWindowFrame = "{{15, 71}, {789, 952}}";
+		};
+	};
+}
