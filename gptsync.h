@@ -176,6 +176,8 @@ typedef struct {
 // functions provided by the OS-specific module
 //
 
+void error(const char *msg, ...);
+void errore(const char *msg, ...);
 UINT64 get_disk_size(VOID);
 UINTN read_sector(UINT64 lba, UINT8 *buffer);
 UINTN write_sector(UINT64 lba, UINT8 *buffer);
