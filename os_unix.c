@@ -64,7 +64,7 @@ void error(const char *msg, ...)
     vsnprintf(buf, 4096, msg, par);
     va_end(par);
     
-    fprintf(stderr, PROGNAME_S ": %s\n", buf);
+    fprintf(stderr, "ERROR: %s\n", buf);
 }
 
 void errore(const char *msg, ...)
@@ -76,7 +76,7 @@ void errore(const char *msg, ...)
     vsnprintf(buf, 4096, msg, par);
     va_end(par);
     
-    fprintf(stderr, PROGNAME_S ": %s: %s\n", buf, strerror(errno));
+    fprintf(stderr, "ERROR: %s: %s\n", buf, strerror(errno));
 }
 
 //
@@ -208,7 +208,7 @@ void list_types(void) {
 // display version string
 //
 void print_version(void) {
-	Print (L"%s 0.1\n", progname);
+	Print (L"%s 0.2\n", progname);
 }
 
 //
@@ -312,6 +312,11 @@ int main(int argc, char *argv[])
 		usage (1);
     }
 
+	if (argc - optind > 4) {
+		error("only 3 partitions can be in hybrid MBR.");
+		return 1;
+	}
+		
     filename = argv[optind];
     
     // set input to unbuffered
