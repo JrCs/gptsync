@@ -298,7 +298,7 @@ static UINTN analyze(int optind, int argc, char **argv)
 	block_count = get_disk_size();
 	last_disk_lba = block_count - 1;
 	if (block_count == 0) {
-		Print(L"Error can't retrieve disk size");
+		error("can't retrieve disk size");
 		return 1;
 	}
 
@@ -356,7 +356,7 @@ static UINTN analyze(int optind, int argc, char **argv)
 			
 				int part = atoi(argv[i]);
 				if (part < 1 || part > gpt_part_count) {
-					Print(L"Error: invalid argument '%s', partition number must be between 1-%d !", argv[i], gpt_part_count);
+					error("invalid argument '%s', partition number must be between 1-%d !", argv[i], gpt_part_count);
 					return 1;
 				}
 				part--; // 0 base partition number
@@ -364,7 +364,7 @@ static UINTN analyze(int optind, int argc, char **argv)
 					active = TRUE;
 					count_active ++;
 					if (count_active == 2) {
-						Print(L"Error: only one partition can be active !");
+						error("only one partition can be active !");
 						return 1;
 					}
 				}
@@ -372,12 +372,19 @@ static UINTN analyze(int optind, int argc, char **argv)
 				if (separator && *(separator + 1)) {
 					char *str_type = separator + 1;
 					if(xtoi (str_type, &force_type) != 0) {
-						Print(L"Invalid hex type: %s !", str_type);
+						error("invalid hex type: %s !", str_type);
 						return 1;
 					}
 				}
 			
-				// FIXME: check that a partition has not already enter
+				// Check that a partition has not already enter
+				for (k = 1; k < new_mbr_part_count; k++) {
+					if (new_mbr_parts[k].start_lba == gpt_parts[part].start_lba ||
+						new_mbr_parts[k].end_lba   == gpt_parts[part].end_lba ) {
+							error("you already add partition %d !",part+1);
+							return 1;
+					}
+				}
 			
 				add_gpt_partition_to_mbr(new_mbr_part_count, part, force_type, active);
 				new_mbr_part_count++;
