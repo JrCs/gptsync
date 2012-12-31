@@ -5,6 +5,8 @@
  * Copyright (c) 2006 Christoph Pfisterer
  * All rights reserved.
  *
+ * Enhanced version by JrCs 2009-2013
+ *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are
  * met:
@@ -208,7 +210,7 @@ void list_types(void) {
 // display version string
 //
 void print_version(void) {
-	Print (L"%s 0.2\n", progname);
+    Print (L"%s 0.3\n", progname);
 }
 
 //
